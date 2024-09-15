@@ -89,7 +89,7 @@ octave:15> zu=xc'*yc-xc'*yr-xr'*yc-xr'*yr
 zu = -4.000000000000001e-02
 </pre>
 
-the true value is $-0.04$.
+The true value is $-0.04$. Then we have
 
  $-0.04 \in \left\[-4.000000000000001\times 10^{-02}, -3.999999999999999\times 10^{-02}\right\]$
   
