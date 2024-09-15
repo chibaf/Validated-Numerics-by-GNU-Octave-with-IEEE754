@@ -20,6 +20,8 @@ setround(2): round Round toward zero
 
 ## example
 
+p106 (*)
+
 <pre>
 octave:2> format long
 octave:3> setround(-1)
@@ -93,6 +95,6 @@ Using directed rounding in Octave/Matlab (Kai Torben Ohlhus)
 
 https://siko1056.github.io/blog/2021/12/23/octave-matlab-directed-rounding.html
 
-Linux 数値計算ツール、大石進一、コロナ社、2000年, in japanese 
+Linux 数値計算ツール、大石進一、コロナ社、2000年, in japanese   (*)
 
 https://www.coronasha.co.jp/np/isbn/9784339023787/
