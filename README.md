@@ -1,6 +1,8 @@
 # Validated-Numerics-by-GNU-Octave-with-FPU-IEEE754
 Validated Numerics by GNU Octave with IEEE754
 
+## change rounding mode on GNU Octave
+
 build:
 
 % mkoctfile --mex setround.c
