@@ -88,6 +88,8 @@ octave:14> setround(-1)
 octave:15> zu=xc'*yc-xc'*yr-xr'*yc-xr'*yr
 zu = -4.000000000000001e-02
 </pre>
+
+the true value is $-0.04$.
   
 ## Refferences
 
