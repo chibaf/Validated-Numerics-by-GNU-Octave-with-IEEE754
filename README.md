@@ -24,7 +24,7 @@ p106 (*)
 
 <pre>
 octave:2> format long
-octave:3> setround(-1)
+octave:3> setround(-1)   % round toward downward
 octave:4> xd=[1/10;(-1)/10;1/10]
 xd =
 
@@ -39,7 +39,7 @@ yd =
    1.999999999999999e-01
   -3.000000000000001e-01
 
-octave:6> setround(1)
+octave:6> setround(1)   % round toward upward
 octave:7> xu=[1/10;(-1)/10;1/10]
 xu =
 
@@ -84,7 +84,7 @@ yr =
 
 octave:13> zu=xc'*yc+xc'*yr+xr'*yc-xr'*yr
 zu = -3.999999999999999e-02
-octave:14> setround(-1)
+octave:14> setround(-1)   % round toward downward
 octave:15> zu=xc'*yc-xc'*yr-xr'*yc-xr'*yr
 zu = -4.000000000000001e-02
 </pre>
